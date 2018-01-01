@@ -9,7 +9,8 @@ import {
   Platform,
   StyleSheet,
   Text,
-  View
+  View,
+  Image
 } from 'react-native';
 
 
@@ -17,8 +18,15 @@ import {
 export default class App extends Component {
   render() {
     return (
+      /*
       <View >
         <Text style={[styles.textoLaranjinha]}>Olá mundo React Git Hub</Text>
+      </View>
+      */
+      <View>
+        <Text style={[styles.textoLaranjinha]}>Olá mundo React Git Hub</Text>
+        <Image source={require( './01.jpg')}
+            style={{width:300, height:400}}   />
       </View>
     );
   }
