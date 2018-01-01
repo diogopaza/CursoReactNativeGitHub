@@ -17,11 +17,21 @@ import {
 export default class App extends Component {
   render() {
     return (
-      <View>
-        <Text>Olá mundo React Git Hub</Text>
+      <View >
+        <Text style={[styles.textoLaranjinha]}>Olá mundo React Git Hub</Text>
       </View>
     );
   }
 }
+
+const styles = StyleSheet.create({
+  textoLaranjinha:{
+    color:'tomato',
+    fontWeight:'bold',
+    fontSize:30
+
+  }
+
+})
 
 
